@@ -7,6 +7,7 @@ public class TestBoat
         Sailboat b2 = new Sailboat();
         Rowboat b3 = new Rowboat();
         b2.setLength(32);
+        System.out.println(b2.getLength());
         b1.move();
         b3.move();
         b2.move();
@@ -19,6 +20,7 @@ class Boat {
         length = len;
     }
     public int getLength() {
+        System.out.println(length);
         return length;
     }
     public void move() {

@@ -2,7 +2,7 @@ package chap01;
 
 public class BeerSong {
     public static void main(String[] args) {
-        int beerNum = 99;
+        int beerNum = 2;
         String word = "bottles";
         while (beerNum > 0)
         {

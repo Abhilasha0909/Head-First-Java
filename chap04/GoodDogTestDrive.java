@@ -19,16 +19,16 @@ class GoodDog
     private int size;
     public int getSize() { return size;}
     public void setSize(int s) { 
-size = s;
+        size = s;
 }
 
 void bark() {
-if (size > 60) {
-System.out.println("Wooof! Wooof!");
-} else if (size > 60) {
-System.out.println("Ruff! Ruff!");
-} else {
-System.out.println("Yip! Yip!");
-}
-}
+    // System.out.println(size);
+    if (size > 60) 
+        System.out.println("Wooof! Wooof!"); 
+    else if (size > 0 && size < 60) 
+        System.out.println("Ruff! Ruff!");
+    else 
+        System.out.println("Yip! Yip!");
+    }
 }
